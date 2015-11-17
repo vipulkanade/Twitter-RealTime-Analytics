@@ -1,0 +1,17 @@
+{
+  "name": "tweet-stats-demo",
+  "version": "0.0.1",
+  "description": "Realtime statistics on Twitter keywords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Hawkes <rob@rawkes.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.9.8",
+    "body-parser": "~1.9.0",
+    "errorhandler": "~1.2.2",
+    "request": "~2.45.0"
+  }
+}
