@@ -170,7 +170,7 @@ app.use(function(req, res, next){
 });
 
 // Open server on specified port
-var port = process.env.PORT || 5001;
+var port = process.env.PORT || 3232;
 app.listen(port, function() {
   console.log("Starting Express server on port %d", port);
 });

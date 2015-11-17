@@ -37,7 +37,7 @@ app.use("/bower_components",  express.static(__dirname + "/bower_components"));
 
 // Open server on specified port
 if (!silent) console.log("Starting Express server");
-app.listen(process.env.PORT || 5002);
+app.listen(process.env.PORT || 3233);
 
 
 // Capture uncaught errors
