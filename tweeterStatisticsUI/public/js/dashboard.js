@@ -5,7 +5,7 @@ Pusher.log = function(message) {
 };
 
 var pusher = new Pusher(""); // Pusher API Key
-var apiURL = "https://tweetstatisticsapi.herokuapp.com"; // App API Deployed
+var apiURL = "https://tweetstatapi.herokuapp.com"; // App API Deployed
 
 function numberWithCommas(x) {
  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
